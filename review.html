@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Details</title>
+</head>
+<body>
+    <br>
+    <table border="0" align="center" cellspacing="" cellpadding="10" width="500" >
+        <tr>
+            <td bgcolor="gray"> Step 1: Account</td>
+            <td bgcolor="gray">Step 2: Personal Details</td>
+            <td bgcolor="skyblue">Step 3: Review Details </td>
+        </tr>
+    </table>
+<br>
+
+<form action="" style="width: 40%; margin: auto;">
+<fieldset>
+<legend>Review Details:</legend>
+<br>
+<label for="aboutus">How did you hear about us?</label>
+<Select id="aboutus" name="aboutus">
+<option value="search engine">Search Engine(Google,Bing,etc)</option>
+<option value="social media">Social Media</option>
+<option value="referral">Referral</option>
+<option value="other">Other</option>
+</Select>
+<br>
+<p>Would you visit again?</p>
+<input type="radio" name="visit_again" id="yes" value="checked" checked />
+<label for="yes">Yes</label>
+<input type="radio" name="visit_again" id="no" value="">
+<label for="no">No</label>
+<input type="radio" name="visit_again" id="maybe" value="">
+<label for="maybe">Maybe</label>
+<br>
+<p>Comments:</p>
+<textarea name="comments"style="height: 80px;" placeholder="Enter your comments"  id="comments"  cols="30" rows="10"></textarea>
+<br><br>
+<label for="docoment">Docoment:</label><br/>
+<input type="file" name="docoment" id="docoment" value="">
+
+<br><br>
+<input type="checkbox" name="sign" id="sign">
+<label for="sign">Sign me up for email details</label>
+<br><br>
+<a href="./personal.html" style="text-decoration: none;"> <img width="125" src="./back.png"  alt="" > </a>
+<a href="./submitted.html" style="text-decoration: none;" > <img width="125px" height="28px" src="./submit-button-blue.png" alt=""> </a>
+
+</fieldset>
+</form>
+
+</body>
+</html>
